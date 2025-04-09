@@ -1,0 +1,10 @@
+from circle import circlefeatures,PI
+circle1=circlefeatures(5,30)
+area=circle1.area()
+print(f"Area of the circle:{area:.2f}")
+perimeter=circle1.perimeter()
+print(f"Perimeter of the circle:{perimeter:.2f}")
+sector=circle1.area_sector()
+print(f"Sector of the circle:{sector:.2f}")
+arc=circle1.arc_circle()
+print(f"Arc of the circle:{arc:.2f}")
